@@ -30,6 +30,7 @@ function setup(){
   ship.scale =0.25;
   
 }
+function draw(){
   //uncomment code to reset the background
   if(sea.x < 0){
     //sea.x = 0;
@@ -40,3 +41,4 @@ function setup(){
 
  
   drawSprites();
+}
